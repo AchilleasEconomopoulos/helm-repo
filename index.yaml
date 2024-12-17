@@ -3,6 +3,16 @@ entries:
   oasees-metrics:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2024-12-17T15:52:49.336812448Z"
+    description: A Helm chart for Kubernetes
+    digest: 71b21383f0698d2f6b9602928d8722d295f853eed2fbe51043742b35bd905c92
+    name: oasees-metrics
+    type: application
+    urls:
+    - https://github.com/AchilleasEconomopoulos/helm-repo/releases/download/oasees-metrics-0.1.3/oasees-metrics-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2024-12-17T15:37:07.124301845Z"
     description: A Helm chart for Kubernetes
     digest: 3bcd9134c61a8902b36bce2ad4551774fff057df3bbfb33716d9ed9d6b2f9be3
@@ -31,4 +41,4 @@ entries:
     urls:
     - https://github.com/AchilleasEconomopoulos/helm-repo/releases/download/oasees-metrics-0.1.0/oasees-metrics-0.1.0.tgz
     version: 0.1.0
-generated: "2024-12-17T15:37:07.124321952Z"
+generated: "2024-12-17T15:52:49.336833447Z"
