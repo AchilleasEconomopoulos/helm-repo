@@ -1,5 +1,16 @@
 apiVersion: v1
 entries:
+  hello-world:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-12-18T14:12:34.050401613Z"
+    description: A Helm chart for Kubernetes
+    digest: e9bee0032953c033be02462285b3641462516a66fcc4a797444a9603b870e4de
+    name: hello-world
+    type: application
+    urls:
+    - https://github.com/AchilleasEconomopoulos/helm-repo/releases/download/hello-world-0.1.0/hello-world-0.1.0.tgz
+    version: 0.1.0
   oasees-metrics:
   - apiVersion: v2
     appVersion: 1.16.0
@@ -41,4 +52,4 @@ entries:
     urls:
     - https://github.com/AchilleasEconomopoulos/helm-repo/releases/download/oasees-metrics-0.1.0/oasees-metrics-0.1.0.tgz
     version: 0.1.0
-generated: "2024-12-17T15:52:49.336833447Z"
+generated: "2024-12-18T14:12:34.050414977Z"
