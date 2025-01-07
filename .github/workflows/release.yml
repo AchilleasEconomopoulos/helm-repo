@@ -48,7 +48,7 @@ jobs:
 
       - name: Run chart-testing (install)
         # if: steps.list-changed.outputs.changed == 'true'
-        run: ct install --helm-extra-set-args "--wait" --target-branch ${{ github.event.repository.default_branch }}
+        run: ct install --all --helm-extra-set-args "--wait" --target-branch ${{ github.event.repository.default_branch }}
   
   release:
     needs: lint-test
