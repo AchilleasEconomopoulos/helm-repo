@@ -55,4 +55,8 @@ spec:
   - port: 1883
     targetPort: 1883
     nodePort: 31317
+  {{- if .Values.chartTestRun }} 
+  type: NodePort
+  {{- else }}
   type: LoadBalancer
+  {{- end }}

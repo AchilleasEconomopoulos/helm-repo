@@ -18,8 +18,10 @@ apiVersion: opentelemetry.io/v1beta1
 kind: OpenTelemetryCollector
 metadata:
   name: otel-collector
-  annotations:
-    "helm.sh/hook": post-install
+  # annotations:
+  #   # helm.sh/hook: post-install
+  labels:
+    app.kubernetes.io/instance: {{ .Release.Name }}
 spec:
   mode: daemonset
   serviceAccount: opentelemetry-collector 
@@ -272,6 +274,7 @@ spec:
     metadata:
       labels:
         app: thanos-receive
+        app.kubernetes.io/instance: {{ .Release.Name }}
     spec:
       containers:
       - name: thanos-receive
