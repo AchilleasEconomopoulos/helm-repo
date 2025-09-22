@@ -72,4 +72,15 @@ entries:
     urls:
     - https://github.com/AchilleasEconomopoulos/helm-repo/releases/download/oasees-metrics-0.1.0/oasees-metrics-0.1.0.tgz
     version: 0.1.0
-generated: "2025-01-14T13:11:41.149102526Z"
+  oasees-telemetry:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-09-22T10:40:52.322836233Z"
+    description: A Helm chart for Kubernetes
+    digest: 64843ff3ab45773092a253a42342e01aafe9a64f2838c8271f8b1d2272c4a2c9
+    name: oasees-telemetry
+    type: application
+    urls:
+    - https://github.com/AchilleasEconomopoulos/helm-repo/releases/download/oasees-telemetry-0.1.1/oasees-telemetry-0.1.1.tgz
+    version: 0.1.1
+generated: "2025-09-22T10:40:52.322852493Z"
